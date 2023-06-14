@@ -1,0 +1,16 @@
+1. What is Stream and Parallel stream ?
+
+2. What is completableFuture?
+
+CompletableFuture is used for asynchronous programming in java . Asynchronous programming 
+means of writing non-blocking  code by running task on a separate thread than main application thread
+and notifying main thread about its progress , completion or failure
+
+4. Why CompletableFuture why not Future>
+
+	1. It can not be manually completed 
+	2. Multiple Future cannot be chained together
+	3. You can not be combine multiple futures together
+	4. No Exception handling
+	
+	
